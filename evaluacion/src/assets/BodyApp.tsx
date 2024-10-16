@@ -1,4 +1,4 @@
-import { Carta } from "../Types/Carta"
+import { Carta } from "../types/Carta"
 import { Components } from "./Components"
 
 type cartaProps = {

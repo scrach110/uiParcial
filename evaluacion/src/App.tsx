@@ -1,5 +1,5 @@
 import { Header } from "./assets/Header"
-import { Carta } from "./Types/Carta"
+import { Carta } from "./types/Carta"
 import { BodyApp } from "./assets/BodyApp"
 import './App.css'
 

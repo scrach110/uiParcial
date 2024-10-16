@@ -1,4 +1,4 @@
-import { Carta } from "../Types/Carta";
+import { Carta } from "../types/Carta";
 
 
 export const  Components = (carta: Carta) => {
@@ -11,7 +11,8 @@ export const  Components = (carta: Carta) => {
                     <img src={carta.imagen} className="card-img-top" alt="Imagen del producto"/>
                     <h5 className="card-title">{carta.nombre}</h5>
                     <p className="card-text">
-                        <i className="bi bi-star"></i>
+                        <input type="checkbox"/>
+                        <i className="bi bi-bookmark-plus-fill"></i>
                     </p>
                  </div>
             </div>
